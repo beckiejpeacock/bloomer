@@ -1,5 +1,11 @@
 /* CSS formatting here */
 
+body {
+  font-family: HelveticaNeue-Bold;
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+}
 h1 {
   font-family: HelveticaNeue-Bold;
   font-size: 35px;
@@ -10,25 +16,29 @@ h2 {
   font-family: HelveticaNeue-Bold;
   font-size: 14px;
   color: #8B572A;
-  line-height: 29px;
+  line-height: 28px;
 }
-h3 {/* Ingredients: */
+h3 {
+  /* Ingredients: */
+
   font-family: HelveticaNeue-Bold;
   font-size: 14px;
   color: #8B572A;
-  line-height: 25px;
-  }
+  line-height: 21px;
+}
+p {
+  /* Ingredients: */
 
-  p{/* Ingredients: */
-    font-family: HelveticaNeue-Bold;
-    font-size: 14px;
-    color: #8B572A;
-    line-height: 25px;
-    }
+  font-family: HelveticaNeue-Bold;
+  font-size: 14px;
+  color: #8B572A;
+  line-height: 21px;
+}
+ul li {
+  /* Preparation method: */
 
-  ul li{/* Preparation method: */
-    font-family: HelveticaNeue-Bold;
-    font-size: 14px;
-    color: #8B572A;
-    line-height: 25px;
-    }
+  font-family: HelveticaNeue-Bold;
+  font-size: 14px;
+  color: #8B572A;
+  line-height: 21px;
+}
