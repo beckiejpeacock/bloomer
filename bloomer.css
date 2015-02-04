@@ -10,7 +10,7 @@ h1 {
   font-family: HelveticaNeue-Bold;
   font-size: 40px;
   color: #8B572A;
-  line-height: 43px; 
+  line-height: 43px;
 }
 h2 {
   font-family: HelveticaNeue-Bold;
@@ -20,13 +20,13 @@ h2 {
 }
 h3 {
   font-family: HelveticaNeue-Bold;
-  font-size: 14px;
+  font-size: 28px;
   color: #8B572A;
   line-height: 21px;
 }
 p {
   font-family: HelveticaNeue-Bold;
-  font-size: 21px;
+  font-size: 18px;
   color: #8B572A;
   line-height: 21px;
 }
@@ -69,13 +69,58 @@ img.kitchen{
 section.ingredients{
   background: rgba(138,87,42,0.20);
   overflow: hidden;
-  padding-left: 40px;
-  padding-top: 20px;
+  padding-left: 80px;
+  padding-top: 40px;
+  margin-right: 0;
+  margin-bottom: 80px;
   }
   img.ingredients{
-    float: right;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    max-width: 250px;
-    height: auto;
+  float: right;
+  max-width: 280px;
+  height: auto;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  border: solid #8B572A;
   }
+  section.method1{
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 80px
+    padding-top: 40px
+  }
+  img.method1{
+  float: left;
+  max-width: 280px;
+  height: auto;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  border: solid #8B572A;
+}
+section.method2{
+  padding-left: 100px;
+  padding-right: 100px;
+  overflow: hidden;
+  padding-top: 20px
+  }
+img.method2{
+  float: right;
+  max-width: 280px;
+  height: auto;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  border: solid #8B572A;
+  }
+section.method3{
+  padding-left: 100px;
+  padding-right: 80px;
+  overflow: hidden;
+  padding-top: 40px
+    }
+img.method3{
+  float: left;
+  max-width: 280px;
+  height: auto;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  border: solid #8B572A;
+}
