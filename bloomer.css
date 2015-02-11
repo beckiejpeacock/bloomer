@@ -11,6 +11,7 @@ h1 {
   font-size: 40px;
   color: #8B572A;
   line-height: 43px;
+  padding-left: 5%;
 }
 h2 {
   font-family: HelveticaNeue-Bold;
@@ -23,12 +24,14 @@ h3 {
   font-size: 28px;
   color: #8B572A;
   line-height: 21px;
+  padding-left: 5%;
 }
 p {
   font-family: HelveticaNeue-Bold;
   font-size: 18px;
   color: #8B572A;
   line-height: 21px;
+  padding-left: 5%;
 }
 ul li {
   font-family: HelveticaNeue-Bold;
@@ -48,13 +51,13 @@ img.kitchen{
 .menu {
   list-style: none;
   padding-top: 0;
-  margin-top: 500;
+  margin-top: 0;
   text-align: left;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: #8B572A;
+  position: fixed;
 }
 .menu li{
   display: inline-block;
@@ -69,7 +72,7 @@ img.kitchen{
 section.ingredients{
   background: rgba(138,87,42,0.20);
   overflow: hidden;
-  padding-left: 80px;
+  padding-left: 10%;
   padding-top: 40px;
   margin-right: 0;
   margin-bottom: 80px;
@@ -79,26 +82,26 @@ section.ingredients{
   max-width: 280px;
   height: auto;
   margin-right: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   border: solid #8B572A;
   }
   section.method1{
+    padding-left: 80px;
+    padding-right: 80px;
     overflow: hidden;
-    padding-left: 100px;
-    padding-right: 80px
-    padding-top: 40px
+    padding-top: 20px
   }
   img.method1{
   float: left;
   max-width: 280px;
   height: auto;
   margin-right: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   border: solid #8B572A;
 }
 section.method2{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 40px;
+  padding-right: 80px;
   overflow: hidden;
   padding-top: 20px
   }
@@ -106,21 +109,29 @@ img.method2{
   float: right;
   max-width: 280px;
   height: auto;
-  margin-right: 80px;
-  margin-bottom: 80px;
+  margin-right: 40px;
+  margin-bottom: 40px;
   border: solid #8B572A;
   }
 section.method3{
-  padding-left: 100px;
+  padding-left: 80px;
   padding-right: 80px;
   overflow: hidden;
-  padding-top: 40px
+  padding-top: 20px
     }
 img.method3{
   float: left;
   max-width: 280px;
   height: auto;
   margin-right: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   border: solid #8B572A;
+}
+section.contact i {
+  margin: 100px;
+}
+section.contact {
+  text-align: center;
+  background: rgba(138,87,42,0.20);
+  padding-bottom: 10%;
 }
