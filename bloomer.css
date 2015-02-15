@@ -8,14 +8,15 @@ body {
 }
 h1 {
   font-family: HelveticaNeue-Bold;
-  font-size: 40px;
+  font-size: 51px;
   color: #8B572A;
   line-height: 43px;
   padding-left: 5%;
+  padding-bottom:0%;
 }
 h2 {
   font-family: HelveticaNeue-Bold;
-  font-size: 14px;
+  font-size: 16px;
   color: #8B572A;
   line-height: 28px;
 }
@@ -24,18 +25,20 @@ h3 {
   font-size: 28px;
   color: #8B572A;
   line-height: 21px;
-  padding-left: 5%;
+  padding-left: 6%;
+  text-align: left;
 }
 p {
   font-family: HelveticaNeue-Bold;
   font-size: 18px;
   color: #8B572A;
   line-height: 21px;
-  padding-left: 5%;
+  padding-left: 4%;
+  text-align: left;
 }
 ul li {
   font-family: HelveticaNeue-Bold;
-  font-size: 14px;
+  font-size: 16px;
   color: #8B572A;
   line-height: 21px;
 }
@@ -45,9 +48,10 @@ img.kitchen{
 }
 .title{
   background: #ffffff;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
   text-shadow: 4px 4px #000000;
 }
+
 .menu {
   list-style: none;
   padding-top: 0;
@@ -61,7 +65,7 @@ img.kitchen{
 }
 .menu li{
   display: inline-block;
-  padding: 20px 35px;
+  padding: 20px 30px;
 }
 .menu a {
   text-decoration: none;
@@ -72,18 +76,29 @@ img.kitchen{
 section.ingredients{
   background: rgba(138,87,42,0.20);
   overflow: hidden;
-  padding-left: 10%;
+  /*padding-left: 15%;
   padding-top: 40px;
   margin-right: 0;
-  margin-bottom: 80px;
+  margin-bottom: 80px;*/
   }
   img.ingredients{
   float: right;
   max-width: 280px;
   height: auto;
-  margin-right: 80px;
-  margin-bottom: 60px;
+  /*margin-right: 40px;
+  margin-bottom: 40px;*/
+  padding-right: 20%;
   border: solid #8B572A;
+  }
+  section.ingredients ul {
+    float: left;
+    max-width: 280px;
+    height: auto;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    /*border: solid #8B572A;*/
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   section.method1{
     padding-left: 80px;
