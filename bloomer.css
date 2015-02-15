@@ -12,7 +12,7 @@ h1 {
   color: #8B572A;
   line-height: 43px;
   padding-left: 5%;
-  padding-bottom:0%;
+  padding-bottom: 0%;
 }
 h2 {
   font-family: HelveticaNeue-Bold;
@@ -33,7 +33,7 @@ p {
   font-size: 18px;
   color: #8B572A;
   line-height: 21px;
-  padding-left: 4%;
+  padding-left: 6%;
   text-align: left;
 }
 ul li {
@@ -42,16 +42,15 @@ ul li {
   color: #8B572A;
   line-height: 21px;
 }
-img.kitchen{
+img.kitchen {
   max-width: 100%;
   height: auto;
 }
-.title{
+.title {
   background: #ffffff;
   padding-bottom: 5%;
   text-shadow: 4px 4px #000000;
 }
-
 .menu {
   list-style: none;
   padding-top: 0;
@@ -63,7 +62,7 @@ img.kitchen{
   background: #8B572A;
   position: fixed;
 }
-.menu li{
+.menu li {
   display: inline-block;
   padding: 20px 30px;
 }
@@ -73,40 +72,35 @@ img.kitchen{
   font-weight: bold;
   text-transform: uppercase;
 }
-section.ingredients{
-  background: rgba(138,87,42,0.20);
+section.ingredients {
+  background: rgba(138, 87, 42, 0.20);
   overflow: hidden;
-  /*padding-left: 15%;
-  padding-top: 40px;
-  margin-right: 0;
-  margin-bottom: 80px;*/
-  }
-  img.ingredients{
+}
+img.ingredients {
   float: right;
   max-width: 280px;
   height: auto;
-  /*margin-right: 40px;
-  margin-bottom: 40px;*/
-  padding-right: 20%;
+  margin-right: 80px;
+  margin-bottom: 40px;
   border: solid #8B572A;
-  }
-  section.ingredients ul {
-    float: left;
-    max-width: 280px;
-    height: auto;
-    margin-right: 40px;
-    margin-bottom: 80px;
-    /*border: solid #8B572A;*/
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-  section.method1{
-    padding-left: 80px;
-    padding-right: 80px;
-    overflow: hidden;
-    padding-top: 20px
-  }
-  img.method1{
+}
+section.ingredients ul {
+  float: left;
+  max-width: 280px;
+  height: auto;
+  margin-right: 40px;
+  margin-bottom: 80px;
+  padding-left: 6%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+section.method1 {
+  padding-left: 80px;
+  padding-right: 80px;
+  overflow: hidden;
+  padding-top: 20px
+}
+img.method1 {
   float: left;
   max-width: 280px;
   height: auto;
@@ -114,27 +108,27 @@ section.ingredients{
   margin-bottom: 40px;
   border: solid #8B572A;
 }
-section.method2{
+section.method2 {
   padding-left: 40px;
   padding-right: 80px;
   overflow: hidden;
   padding-top: 20px
-  }
-img.method2{
+}
+img.method2 {
   float: right;
   max-width: 280px;
   height: auto;
   margin-right: 40px;
   margin-bottom: 40px;
   border: solid #8B572A;
-  }
-section.method3{
+}
+section.method3 {
   padding-left: 80px;
   padding-right: 80px;
   overflow: hidden;
   padding-top: 20px
-    }
-img.method3{
+}
+img.method3 {
   float: left;
   max-width: 280px;
   height: auto;
@@ -147,6 +141,6 @@ section.contact i {
 }
 section.contact {
   text-align: center;
-  background: rgba(138,87,42,0.20);
+  background: rgba(138, 87, 42, 0.20);
   padding-bottom: 10%;
 }
